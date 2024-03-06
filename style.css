@@ -1,0 +1,117 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+}
+
+#logo {
+    width: 160px;
+    padding-left: 40px;
+}
+
+header {
+    background-color: #FFD900 ;
+    padding: 20px;
+}
+
+#sessao-01{
+    display: grid;
+    grid-auto-flow: column;
+    text-align: center;
+}
+
+#bloco-01-1{
+    background-color: #514988;
+    padding: 30px 20px 30px 20px;
+    height: 400px;
+    width: 600px;
+}
+
+#titulo{
+    color: #FFD900;
+    padding: 0 0 10px 0;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+#subtitulo{ 
+    color: #fff;
+    margin-top: 20px;
+    font-size: 20px;
+}
+#conteudo{
+    color: #fff;
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 10px;
+}
+#bloco-01-2{
+    background-color: #fff;
+    padding: 30px 20px 30px 20px;
+    height: 400px;
+}
+#alerta{
+    color: #E33881;
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-size: 18px;
+}
+#countdown{
+    display: grid;
+    grid-auto-flow: column;
+    text-align: center;
+    background-color: white;
+    margin-right: -15px;
+}
+.countdown-item{
+    color: #514988;
+    font-size: 45px;
+    margin-bottom: 5px;;
+}
+#video{
+    margin-right: -15px;
+    margin-bottom: -15px;
+    margin-top: -15px;
+    background-color: white;
+}
+#sessao-02 {
+    display: grid;
+    grid-auto-flow: column;
+    padding-bottom: 50px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#subtitulo-2{
+    color: #F3C61F;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 10px 0 10px 65px ;
+}
+
+#ingressos img {
+    width: 180px;
+}
+#ingressos {
+    padding-left: 46px;
+}
+#botao-compra {
+    text-align: center;
+}
+
+button{
+    background-color: #514988;
+    font-size: 30px;
+    border: 0px;
+    border-radius: 20px;
+    color: white;
+    margin: 30px;
+    width: 400px;
+    height: 100px;
+
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #857fad;
+}
